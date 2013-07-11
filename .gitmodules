@@ -1,48 +1,48 @@
 [submodule "tftp"]
 	path = tftp
-	url = https://github.com/theforeman/puppet-tftp.git
+url=https://github.com/gwdg/theforeman-tftp.git
 [submodule "apache"]
 	path = apache
-	url = https://github.com/theforeman/puppet-apache.git
+url=https://github.com/gwdg/theforeman-apache.git
 [submodule "foreman"]
 	path = foreman
-	url = https://github.com/theforeman/puppet-foreman.git
+url=https://github.com/gwdg/theforeman-foreman.git
 [submodule "foreman_proxy"]
 	path = foreman_proxy
-	url = https://github.com/theforeman/puppet-foreman_proxy.git
+url=https://github.com/gwdg/theforeman-foreman_proxy.git
 [submodule "passenger"]
 	path = passenger
-	url = https://github.com/theforeman/puppet-passenger.git
+url=https://github.com/gwdg/theforeman-passenger.git
 [submodule "puppet"]
 	path = puppet
-	url = https://github.com/theforeman/puppet-puppet.git
+url=https://github.com/gwdg/theforeman-puppet.git
 [submodule "xinetd"]
 	path = xinetd
-	url = https://github.com/puppetlabs/puppetlabs-xinetd.git
+url=https://github.com/gwdg/puppetlabs-xinetd.git
 [submodule "git"]
 	path = git
-	url = https://github.com/theforeman/puppet-git.git
+url=https://github.com/gwdg/theforeman-git.git
 [submodule "dhcp"]
 	path = dhcp
-	url = https://github.com/theforeman/puppet-dhcp
+url=https://github.com/gwdg/theforeman-dhcp.git
 [submodule "dns"]
 	path = dns
-	url = https://github.com/theforeman/puppet-dns
+url=https://github.com/gwdg/theforeman-dns.git
 [submodule "concat_native"]
 	path = concat_native
-	url = https://github.com/theforeman/puppet-concat.git
+url=https://github.com/gwdg/theforeman-concat.git
 [submodule "mysql"]
 	path = mysql
-	url = https://github.com/puppetlabs/puppetlabs-mysql.git
+url=https://github.com/gwdg/puppetlabs-mysql.git
 [submodule "postgresql"]
 	path = postgresql
-	url = https://github.com/puppetlabs/puppet-postgresql.git
+url=https://github.com/gwdg/puppetlabs-postgresql.git
 [submodule "stdlib"]
 	path = stdlib
-	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+url=https://github.com/gwdg/puppetlabs-stdlib.git
 [submodule "concat"]
 	path = concat
-	url = https://github.com/ripienaar/puppet-concat.git
+url=https://github.com/gwdg/ripienaar-concat.git
 [submodule "create_resources"]
 	path = create_resources
-	url = https://github.com/puppetlabs/puppetlabs-create_resources.git
+url=https://github.com/gwdg/puppetlabs-create_resources.git
