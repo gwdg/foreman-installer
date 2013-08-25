@@ -1,12 +1,22 @@
-# Format:
-# <classname>: false - don't include this class
-# <classname>: true - include and use the defaults
-# <classname>:
-#   <param>: <value> - include and override the default(s)
-#
-# See params.pp in each class for what options are available
----
-foreman: true
-puppet: true
-puppetmaster: true
-foreman_proxy: true
+foreman:
+  authentication: true
+  ssl: true
+  organizations_enabled: true
+  locations_enabled: true
+puppet:
+  version: latest
+puppetmaster:
+  git_repo: false
+foreman_proxy:
+  tftp_servername: 10.1.254.254
+  dhcp: true
+  dhcp_interface: eth2
+  dhcp_gateway: 10.1.254.254
+  dhcp_range: 10.1.254.16 10.1.254.32
+  dhcp_nameservers: 10.1.254.254
+  dns: true
+  dns_interface: eth2
+  dns_reverse: 255.1.10.in-addr.arpa
+  dns_server: 127.0.0.1
+  dns_forwarders: ['8.8.8.8']
+
