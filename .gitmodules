@@ -31,9 +31,6 @@ url=https://github.com/gwdg/theforeman-dns.git
 [submodule "concat_native"]
 	path = concat_native
 url=https://github.com/gwdg/theforeman-concat.git
-[submodule "mysql"]
-	path = mysql
-url=https://github.com/gwdg/puppetlabs-mysql.git
 [submodule "postgresql"]
 	path = postgresql
 url=https://github.com/gwdg/puppetlabs-postgresql.git
